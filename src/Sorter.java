@@ -1,5 +1,5 @@
 public class Sorter {
-    void InsertionSort(int arr[])
+void InsertionSort(int arr[])
     {
         int n = arr.length;
         for (int i = 1; i < n; ++i) {
@@ -37,6 +37,6 @@ public class Sorter {
         }
     }
     void sort(int arr[]){
-        InsertionSort(arr);
+        SelectionSort(arr);
     }
 }
