@@ -36,4 +36,7 @@ public class Sorter {
             arr[i] = temp;
         }
     }
+    void sort(int arr[]){
+        InsertionSort(arr);
+    }
 }
